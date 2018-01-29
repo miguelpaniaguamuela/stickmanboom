@@ -13,11 +13,11 @@ import config from './config'
 
 class Game extends Phaser.Game {
   constructor () {
-    const docElement = document.documentElement
+    const docElement = document.documentElementtest
     /*const width = docElement.clientWidth < config.gameWidth ? config.gameWidth : docElement.clientWidth
     const height = docElement.clientHeight < config.gameHeight ? config.gameHeight : docElement.clientHeight*/
     const width = docElement.clientWidth
-    const height = docElement.clientHeighta
+    const height = docElement.clientHeight
     super(1920, 1080, Phaser.CANVAS, 'content', null)
 
     this.state.add('Boot', BootState, false)
